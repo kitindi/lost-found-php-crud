@@ -20,10 +20,10 @@ require 'fetchdata.php';
 
 </div>
 <div class="container d-flex justify-content-center p-2">
-    <div class="col-md-8 py-3">
+    <div class="col-md-8  bg-light p-3">
         <div class="row">
             <div class="col-md-12">
-                <a href="add.php" type="button" class="btn btn-dark">Add Item</a>
+                <a href="add.php" type="button" class="btn btn-dark">Add Lost Item</a>
             </div>
         </div>
         <div class="row mt-5">
@@ -44,8 +44,8 @@ require 'fetchdata.php';
                             <td><?php echo $item['name']; ?></td>
                             <td><?php echo $item['description']; ?></td>
                             <td><?php echo $item['contact']; ?></td>
-                            <td class="d-flex gap-3 align-items-center"><a href="" type="button"
-                                    class="btn btn-sm btn-dark">Update</a><a href="" type="button"
+                            <td class="d-flex gap-3 align-items-center"><a href="edit.php?item_id=<?=$item['id'];?>"
+                                    type="button" class="btn btn-sm btn-dark">Update</a><a href="" type="button"
                                     class="btn btn-sm btn-danger">Found</a> </td>
 
                         </tr>
