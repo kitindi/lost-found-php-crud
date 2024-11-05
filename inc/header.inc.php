@@ -9,4 +9,4 @@
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
 
-<body style="background-color: #EEEDEB;"></body>
+<body style="background-color: #F5F5F7;"></body>
