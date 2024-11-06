@@ -45,7 +45,8 @@ require 'fetchdata.php';
                             <td><?php echo $item['description']; ?></td>
                             <td><?php echo $item['contact']; ?></td>
                             <td class="d-flex gap-3 align-items-center"><a href="edit.php?item_id=<?=$item['id'];?>"
-                                    type="button" class="btn btn-sm btn-dark">Update</a><a href="" type="button"
+                                    type="button" class="btn btn-sm btn-dark">Update</a><a
+                                    href="delete.php?id=<?=$item['id'];?>" type="button"
                                     class="btn btn-sm btn-danger">Found</a> </td>
 
                         </tr>
